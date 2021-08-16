@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header {
+  text-align: center;
+  font-size: 26px;
+}
+
+.dayOfWeek {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  border: 0px solid black;
+  padding: 10px;
+  min-width: 400px;
+  max-width: 90%;
+  position: relative;
+  text-align: center;
+  display: table;
+  table-layout: fixed;
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.row {
+  display: table-row;
+  
+}
+
+.col {
+  display: table-cell;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#button {
+  width: 100%;
+}
+
+.disclaimer {
+  font-size: 12px;
+}
